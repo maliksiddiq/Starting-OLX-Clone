@@ -1,0 +1,31 @@
+body {
+    font-family: Geomanist, Helvetica, sans-serif;
+}
+
+:root {
+    --button-color:#002f34;
+    --hover-color:#3A77ff;
+    --para-color:#406367;
+    --img-text-color:#222222;
+    --back-color:#E9ECEF;
+}
+ 
+  /* ? ----------------- Header Section -----------------  */
+
+.header {
+    min-height: 150px;
+}
+
+.row {
+    border: 2px solid red;
+}
+
+.col-3{
+    border: 2px solid black;
+}
+
+.img-box {
+    height: 40px;
+    width: 40px;
+    background-color: var(--back-color);
+}
