@@ -3,25 +3,22 @@ body {
 }
 
 :root {
-    --button-color:#002f34;
-    --hover-color:#3A77ff;
-    --para-color:#406367;
-    --img-text-color:#222222;
-    --back-color:#E9ECEF;
+    --button-color: #002f34;
+    --hover-color: #3A77ff;
+    --para-color: #406367;
+    --img-text-color: #222222;
+    --back-color: #E9ECEF;
 }
- 
-  /* ? ----------------- Header Section -----------------  */
+
+/* ? ----------------- Header Section -----------------  */
 
 .header {
-    min-height: 150px;
+    min-height: 153px;
 }
 
-.row {
-    border: 2px solid red;
-}
-
-.col-3{
-    border: 2px solid black;
+.header a:hover {
+    border: none !important;
+    transition: all 0.17s ease-in-out;
 }
 
 .img-box {
@@ -29,3 +26,20 @@ body {
     width: 40px;
     background-color: var(--back-color);
 }
+
+.header h3 {
+    font-size: 18px !important;
+    font-weight: bold !important;
+    position: relative;
+    top: 5px;
+}
+
+.row {
+    border: 2px solid red;
+}
+
+.hover-img:hover {
+    color: var(--hover-color);
+}
+
+/* ? ------------------------ Menu Links  ------------------- */
